@@ -1,0 +1,25 @@
+:root{
+        /*primary colors*/
+    --color-pink:hsl(322, 100%, 66%);
+    --color-light-pink:hsl(321, 100%, 78%);
+    --color-light-red:hsl(0, 100%, 63%);
+    
+    /*netural*/
+    --color-very-dark-cyan:hsl(192, 100%, 9%);
+    --color-very-pale-blue:hsl(207, 100%, 98%);
+    
+    /*fonts*/
+    --font-poppins:"Poppins", sans-serif;/*700 for headings*/
+    --font-open-sans:"Open Sans", sans-serif;/*400 600 700 for body*/
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
